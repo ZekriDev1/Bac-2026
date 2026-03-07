@@ -41,8 +41,10 @@ const shareBtn = document.getElementById("shareBtn");
 
 shareBtn.addEventListener("click", async () => {
   const url = window.location.href;
-  const text = "Check out this BAC 2026 Countdown!";
+  const text = "Check out this BAC 2026 Countdown! made by Akram Zekri";
   
+
+
   if(navigator.share){
     try{
       await navigator.share({title: "BAC 2026 Countdown", text, url});
