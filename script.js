@@ -1,5 +1,5 @@
 
-const targetDate = new Date("June 4, 2026 00:00:00").getTime();
+const targetDate = new Date("June 4, 2026 08:00:00").getTime();
 
 function updateCountdown(){
 
